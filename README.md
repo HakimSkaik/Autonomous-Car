@@ -20,14 +20,14 @@ https://user-images.githubusercontent.com/98859282/197321927-8ef3ca48-64bc-4f07-
 
 
 
-## Identifying Lanes 
+## *Identifying Lanes* 
 
 Identified lines inside of a gradient image with hough transfor technique and placed these lines on a black image which has the same dimensions as the road image, thereby, by blending the two, I was able to place the detected lines nack into the original "test_image.jpg"
 
 ![image](https://user-images.githubusercontent.com/98859282/197322576-635ad237-f533-43a5-b908-1c62ff4ed126.png)  ![image](https://user-images.githubusercontent.com/98859282/197322583-f81e59a1-bbec-4755-b279-77f166c4d10b.png) ![image](https://user-images.githubusercontent.com/98859282/197323178-bb34747d-4f6f-4d18-bc7a-cee605afad20.png) ![image](https://user-images.githubusercontent.com/98859282/197323286-135179e0-b2be-4b6e-b654-3b3f1a6c47ca.png)
 
 
-## Neural Network Training 
+## *Neural Network Training* 
 
 Successfully trained a neural netwok to learn how to classify training data, reaching 97% accuracy
 
@@ -46,7 +46,7 @@ Coded a deep neural network that's properly able to calssify previously labeled 
 ![image](https://user-images.githubusercontent.com/98859282/197324543-5d6f7b79-069e-4b79-836a-35030229de9a.png)
 
 
-## Traffic Signs Prediction
+## *Traffic Signs Prediction*
 
 in the "MNIST deep learning.ipynb":
 
@@ -58,7 +58,7 @@ I successfully trained a neural network to have a model fit image data,to make p
 
 
 
-## Convolutional Neural Networks
+## *Convolutional Neural Networks*
 
 
 Detecting meaningful features when given various of different images and labels is no easy task, which is convolutional layers are key players in a convolutional network.
@@ -81,7 +81,7 @@ validation data.
 This implies that our solution for using convolutional networks to classify these images was successful.
 
 
-## Dropout Regularzation for Neural Networks
+## *Dropout Regularzation for Neural Networks*
 
 Dropout is a regularization technique for neural network models proposed by Srivastava et al. in their 2014 paper “Dropout: A Simple Way to Prevent Neural Networks from Overfitting” <a href="https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf" target="_blank">pdf</a>.
 
@@ -103,7 +103,7 @@ It was due to the convolutional network that clearly resulted in improved accura
 I even visualized the outputs of these convolutional layers to get a solid understanding of just how these convolutional layers behave.
 
 
-## Behaviuoral Cloning 
+## *Behaviuoral Cloning* 
 
 the "Behavioural_Cloning Final.ipynb" consists of convolutional neural networks for which I took images at each instance of the drive, which were then used to represent the training dataset, the label for each image is the steering angle of the car at that specific instance. I displayed all of these images to the convulutional neural network and allowed it to learn how to drive autonomously, as the model will learn to adjust the steering angle to an appropriate degree bsaed on the situation that it finds itself in.
  
@@ -115,14 +115,14 @@ the "Behavioural_Cloning Final.ipynb" consists of convolutional neural networks 
  ![image](https://user-images.githubusercontent.com/98859282/197326339-71aa662d-d863-47bf-99c9-66e01dcccb27.png)
  
  
-## Socket.io
+## *Socket.io*
  
 Sockets in general are used to perform real time communication between a client and a server when a client creates a single connection to a web socket server. It keeps listening for new events from the server allowing us to continuously update the client with data.
  
 The goal was to create a bi directional client server communication but ultimately as a result create a connection between the model which was loaded into atom, the simulator and server would then be initialized with socket.io so I implemented a fully compliant socket IO web server and now having specified
 the server I required a middleware, to dispatch traffic to a socket io web application.
 
-## WSGI Server
+## *WSGI Server*
  
 To sum, I combined the socket server with a flask webapp.  I used the WSGI Server for calling convention for web servers to forward requests to web applications or frameworks written in Python, these requests made my by the client are sent to the web application itself to launch this WSGI server.
 
