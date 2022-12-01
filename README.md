@@ -108,7 +108,7 @@ I even visualized the outputs of these convolutional layers to get a solid under
 the "Behavioural_Cloning Final.ipynb" consists of convolutional neural networks for which I took images at each instance of the drive, which were then used to represent the training dataset, the label for each image is the steering angle of the car at that specific instance. I displayed all of these images to the convulutional neural network and allowed it to learn how to drive autonomously, as the model will learn to adjust the steering angle to an appropriate degree bsaed on the situation that it finds itself in.
  
  
- ### <a href="https://developer.nvidia.com/blog/deep-learning-self-driving-cars/" target="_blank">NVIDEA Neural Model</a>
+ ### <a href="https://developer.nvidia.com/blog/deep-learning-self-driving-cars/" target="_blank">NVIDIA Neural Model</a>
  
  I utilized YUV color space for the dataset as opposed to the default RGB format or a greyscale image, and this is because experts say that this color is very effective for use in training as it adds colors to the image. I also applied the gaussian blur since it reduces moise within the image 
  
